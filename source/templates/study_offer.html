@@ -1,0 +1,28 @@
+{% extends 'index.html' %}
+{% load static %}
+{% block title %}{{ conducted_work.title }}{{ data.id }}{% endblock %}
+
+{% block content %}
+<link rel="stylesheet" type="text/css" href="{% static 'study_offer.css' %}">
+
+<div class="card-service">
+    <!-- <img src="{% static conducted_work.image %}" alt="{{ conducted_work.title }}"> -->
+    <img src="{% static conducted_work.image %}" alt="{{ conducted_work.title }}" style="width:100%;height:150px"  class="card-img-top">
+    <br>
+    <div class="container">
+        <h4><b>{{conducted_work.title}}</b></h4>
+        <!-- <p>Architect & Engineer</p> -->
+        <div class="card-body">
+        <br>
+        <p class="card-text">{{ conducted_work.description }}</p>
+        <br>
+        <p class="card-text">Цена: {{ conducted_work.price }} рублей</p>
+        </div>
+        <br>
+        <a href="{% url 'services' %}" class="btn btn-primary">На главную</a>
+    </div>
+    <br>
+
+</div>
+
+{% endblock %}
