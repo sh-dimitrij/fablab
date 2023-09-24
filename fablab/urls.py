@@ -23,7 +23,7 @@ from datetime import date, datetime
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", views.services, name='services'),
-    path("study_offer/<int:offer_id>/", views.study_for_offer, name='study_offer'),
+    path("study_offer/<int:offer_id>/", views.view_fablab, name='study_offer'),
 ]
 
 

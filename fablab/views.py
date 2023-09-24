@@ -76,7 +76,7 @@ def services(request):
 #         'link': orders[id]["link"]
 #     }})
 
-def study_for_offer(request, offer_id):
+def view_fablab(request, offer_id):
     data_by_id = servicesData.get('conducted_work')[offer_id]
     return render(request, "study_offer.html", {
         'conducted_work': data_by_id
