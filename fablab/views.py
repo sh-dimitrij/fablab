@@ -55,7 +55,7 @@ servicesData = {
 #         'orders': orders
 #     }})
     
-def services(request):
+def fablab_services(request):
     query = request.GET.get('query')
 
     if query:
@@ -66,7 +66,7 @@ def services(request):
         filtered_data = servicesData['conducted_work']
         query = ""
 
-    return render(request, "all_service.html", {'filtered_data': filtered_data, 'search_value': query})
+    return render(request, "fablab_services.html", {'filtered_data': filtered_data, 'search_value': query})
 
 # def GetOrder(request, id):
 #     return render(request, 'order.html', {'data' : {
@@ -78,6 +78,6 @@ def services(request):
 
 def view_fablab(request, offer_id):
     data_by_id = servicesData.get('conducted_work')[offer_id]
-    return render(request, "study_offer.html", {
+    return render(request, "view_fablab.html", {
         'conducted_work': data_by_id
     })
