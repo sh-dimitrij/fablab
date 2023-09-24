@@ -56,7 +56,7 @@ servicesData = {
 #     }})
     
 def services(request):
-    query = request.GET.get('q')
+    query = request.GET.get('query')
 
     if query:
         # Фильтруем данные, учитывая как поле "type", так и поле "price"
