@@ -2,8 +2,8 @@
     border: 1px solid #cb6607;
     padding: 10px;
     margin: 10px;
-    height: 250px;
-    width: 500px;
+    height: 270px;
+    width: 800px;
     /* Ширина карточки */
     display: flex;
     align-items: center;
@@ -46,4 +46,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.foto_size {
+    max-width: 150px;
+    max-height: 200px;
 }

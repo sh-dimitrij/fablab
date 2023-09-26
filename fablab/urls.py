@@ -22,8 +22,8 @@ from datetime import date, datetime
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("", views.fablab_services, name='services'),
-    path("view_fablab/<int:offer_id>/", views.view_fablab, name='view_fablab'),
+    path("", views.fablab_worktypes, name='worktypes'),
+    path("view_fablab/<int:process_id>/", views.view_fablab, name='view_fablab'),
 ]
 
 
