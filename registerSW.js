@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('https://github.com/sh-dimitrij/fablab/sw.js', { scope: 'https://github.com/sh-dimitrij/fablab/' })})}
