@@ -28,7 +28,7 @@ ___
 | №| :sparkles: Доп.задание :sparkles:   |:round_pushpin: Ссылка на видео :round_pushpin:|
 | ------------- |:------------------:| -----:|
 | :one: | ЛР2   | [LR2](https://youtu.be/6f4Ajj8MVf4)|
-| :two: | ЛР4   | [---]()|
-| :two: | ДЗ+ЛР7   | [DZLR7](https://youtu.be/PVcfMC5gGrE)|
+| :two: | ЛР4   | --- |
+| :three: | ДЗ+ЛР7   | [DZLR7](https://youtu.be/PVcfMC5gGrE)|
 
 ___
